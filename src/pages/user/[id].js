@@ -1,7 +1,6 @@
 import Tweet from '@/components/Tweet'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import useTimeline from '@/hooks/useTimeline'
 import Button from '@/components/Button'
 import Avatar from '@/components/Avatar'
@@ -10,8 +9,6 @@ import { logout } from '@/firebase/client'
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 export default function User () {
   const user = useUser()
-  const router = useRouter()
-  const { id } = router.query
   const { timeline } = useTimeline()
   return (
     <>
