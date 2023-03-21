@@ -84,7 +84,7 @@ const Tweet = ({
           ? (
           <Button
             onClick={handleRemoveLike}
-            className="flex items-center like-button "
+            className="flex items-center"
           >
             <HeartIconFilled className="w-5 h-5 text-red-500" />
             <span className="text-gray-500 text-sm ml-1">{likesCount}</span>
@@ -93,7 +93,7 @@ const Tweet = ({
           : (
           <Button
             onClick={handleLike}
-            className="flex items-center like-button "
+            className="flex items-center"
           >
             <HeartIcon className="w-5 h-5 text-gray-500" />
             <span className="text-gray-500 text-sm ml-1">{likesCount}</span>

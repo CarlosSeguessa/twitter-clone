@@ -38,9 +38,3 @@ div {
   background-size: 180px 180px;
   background-position: center;
 }
-
-.like-button:hover {
-  background: radial-gradient(#cf525222 15%, transparent 16%);
-  background-size: 180px 180px;
-  background-position: center;
-}
